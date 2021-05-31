@@ -1,0 +1,276 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+section {
+    height: 80vh;
+}
+
+
+/*landing section*/
+
+.home {
+    background-image: -webkit-linear-gradient(140deg, #EEF6CB 54%, white 46%);
+    height: 100%;
+}
+
+.top-body {
+    padding-top: 6rem;
+}
+
+
+/* left container */
+
+.tagline-heading {
+    font-size: 5rem;
+    letter-spacing: -3px;
+    line-height: 1;
+    font-weight: bold;
+    color: green;
+}
+
+.para-heading {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.signup-button {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding: 0.5rem 2.25rem;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 10px grey;
+    text-align: center;
+}
+
+.login-button {
+    margin-top: 2rem;
+    padding: 0.5rem 2.5rem;
+    background-color: white;
+    border: 1px solid #61B15A;
+    border-radius: 10px;
+    color: #61B15A;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.signup-button:hover {
+    background-color: #006400;
+    box-shadow: 0 0 0 transparent;
+}
+
+.login-button:hover {
+    background-color: #006400;
+    box-shadow: 0 0 0 transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* right container */
+
+
+/* breakpoints */
+
+@media (max-width:1220px) {
+    .top-body {
+        padding-bottom: 3rem;
+    }
+    .left-container {
+        width: 100%;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    .right-container {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #scrapbin-top-float {
+        top: 30rem;
+        right: 20rem;
+    }
+    #scrapbin-bottom-float {
+        top: 45rem;
+        right: 8rem;
+    }
+}
+
+@media (max-width:650px) {
+    .top-body {
+        text-align: center;
+    }
+    .para-heading {
+        margin-bottom: 2rem;
+    }
+    .main-garbage-man {
+        width: 225px;
+        height: 325px;
+    }
+    #scrapbin-top-float {
+        top: 37rem;
+        right: 5rem;
+    }
+    #scrapbin-bottom-float {
+        top: 45rem;
+        left: 1rem;
+        right: 5rem;
+    }
+}
+
+@media (max-width:412px) {
+    .signup-button {
+        margin-right: 0;
+    }
+    .login-button {
+        margin-top: 1rem;
+    }
+}
+
+
+/*steps section css*/
+
+.steps {
+    height: 100%;
+    display: grid;
+}
+
+.two {
+    background: lightgreen;
+    padding-bottom: 3rem;
+}
+
+.text-center {
+    color: #444;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.text-head {
+    font-family: 'Lato';
+}
+
+.heading {
+    color: black;
+}
+
+.textStyle {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.count-text-small {
+    font-size: 1.5rem;
+    font: lato;
+    text-align: left;
+}
+
+.text-head {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+div {
+    position: relative;
+    /* padding: 15px 0px 5px 5px; */
+    display: block;
+}
+
+
+/*caraousel section css */
+
+#carouselID {
+    height: 100%;
+    background-color: white;
+    /**/
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: #EEF6CB;
+}
+
+
+/* #D1F979 */
+
+.carousel-image {
+    width: 100%;
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 23%;
+    padding-left: 23%;
+    /* filter: grayscale(10%); */
+    /* border-radius: 10%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* background-color: #EEF6CB;
+    box-shadow: 10px 10px 5px grey;
+    border: 10px solid transparent; */
+}
+
+
+/* 
+.carousel-image:hover {
+    box-shadow: 10px 10px 5px grey;
+} */
+
+.carousel-text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 5%;
+    font-size: 3.125rem;
+    color: #7ABA47;
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+.carousel-para {
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 1.25rem;
+    color: grey;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.InnerText {
+    color: #3F7811;
+}
+
+.arrowLeft {
+    background-image: url("../images/leftarrowG.svg");
+}
+
+.arrowRight {
+    background-image: url("../images/rightarrowG.svg");
+}
+
+section:nth-child(4) {
+    background: #5B6057;
+}

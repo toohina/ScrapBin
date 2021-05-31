@@ -1,0 +1,143 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* Privacy Policy */
+
+.back-to-home {
+    padding-left: 150px;
+    padding-top: 20px;
+    height: 70px;
+    background-color: #e8eae6;
+    font-size: 18px;
+    font-family: montserrat;
+}
+
+.back-to-home .li-home {
+    list-style-type: none;
+    float: left;
+}
+
+.back-to-home ul li a {
+    color: #6ab43e;
+    text-decoration: none;
+}
+
+.back-to-home .li-tnc {
+    float: left;
+    list-style-type: none;
+}
+
+.back-to-home ul a:hover {
+    color: black;
+}
+
+.row {
+    font-family: montserrat;
+    font-size: 18px;
+}
+
+.row li {
+    color: #828282;
+}
+
+.pp-heading {
+    padding-top: 10px;
+}
+
+.pp-heading h2 {
+    color: green;
+}
+
+.pp-heading hr {
+    width: 8%;
+    border-top: 3px solid green;
+}
+
+.pp-heading p {
+    color: grey;
+}
+
+.pp-info {
+    padding-top: 60px;
+}
+
+.pp-data {
+    padding-top: 40px;
+}
+
+.pp-data p {
+    color: grey;
+}
+
+.pp-disclosure {
+    padding-top: 40px;
+}
+
+.pp-cookies {
+    padding-top: 40px;
+}
+
+.pp-cookies p {
+    color: grey;
+}
+
+.pp-minor {
+    padding-top: 40px;
+}
+
+.pp-minor p {
+    color: grey;
+}
+
+.pp-security {
+    padding-top: 40px;
+}
+
+.pp-changes {
+    padding-top: 40px;
+}
+
+.pp-changes p {
+    color: grey;
+}
+
+.pp-feedback {
+    padding-top: 40px;
+}
+
+.pp-feedback p {
+    color: grey;
+}
+
+.pp-security-policy {
+    padding-top: 60px;
+}
+
+.pp-security-policy h2 {
+    color: green;
+}
+
+.pp-security-policy p {
+    color: grey;
+}
+
+.pp-emails {
+    padding-top: 40px;
+}
+
+.pp-user {
+    padding-top: 40px;
+}
+
+.pp-privacy {
+    padding-top: 40px;
+}
+
+.pp-privacy p {
+    color: grey;
+}

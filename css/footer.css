@@ -1,0 +1,92 @@
+footer {
+    background-color: #303036;
+    color: #fff;
+    font-family: montserrat;
+    text-align: left;
+}
+
+footer .row hr {
+    width: 50%;
+    background-color: white;
+}
+
+footer .row .services {
+    height: 300px;
+    padding: 60px;
+    background-color: #303036;
+    color: white;
+    font-size: 15px;
+}
+
+footer .row h4 {
+    margin-left: 30px;
+}
+
+footer .row .services ul li {
+    color: white;
+    list-style-type: none;
+}
+
+footer .row .address {
+    height: 300px;
+    padding: 60px;
+    background-color: #303036;
+    color: white;
+    font-size: 15px;
+}
+
+footer .row .quick-links {
+    height: 300px;
+    padding: 60px;
+    background-color: #303036;
+    color: white;
+    font-size: 15px;
+}
+
+footer .row .quick-links ul li {
+    color: white;
+    list-style-type: none;
+}
+
+footer .row .quick-links ul a {
+    text-decoration: none;
+}
+
+footer .row .quick-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+footer .row .copyright {
+    padding-left: 100px;
+    padding-top: 10px;
+    background-color: #303036;
+    color: white;
+    font-size: 15px;
+}
+
+footer .row .social-media {
+    background-color: #303036;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+footer .row p {
+    font-size: 16px;
+}
+
+footer .row .social-media .fa {
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    background-color: green;
+    color: white;
+}
+
+footer .row .social-media .fa .fa:hover {
+    opacity: 0.5;
+}

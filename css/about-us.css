@@ -1,0 +1,16 @@
+.main {
+    font-size: 100%;
+    font-weight: bolder;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: darkgreen;
+}
+
+.div1 {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 5px 10px #c4d670;
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+}

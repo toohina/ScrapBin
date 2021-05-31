@@ -1,0 +1,24 @@
+body {
+    overflow-x: hidden;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+}
+
+.profile {
+    padding: 6rem;
+}
+
+h6 {
+    padding-top: 1rem;
+}
+
+.btn-success {
+    background-color: green;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.btn-success:hover {
+    background-color: #303036;
+    border-color: #303036;
+}

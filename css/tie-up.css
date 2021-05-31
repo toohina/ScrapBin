@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* Tie-up CSS */
+
+.back-to-home {
+    padding-left: 150px;
+    padding-top: 0;
+    height: 70px;
+}
+
+.tie-up-heading {
+    padding-top: 0;
+    color: green;
+}
+
+.tie-up-heading hr {
+    width: 8%;
+    border-top: 3px solid green;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.tie-up-image p {
+    font-size: 18px;
+    font-family: montserrat;
+    padding: 0 0;
+}
+
+.scrapbin-color {
+    color: green;
+}
+
+#form1 {
+    text-align: center;
+}
+
+@media (max-width: 900px) {}
+
+.tie-up-form {
+    padding: 50px 0px 0px 0px;
+}
+
+.tie-up-form {
+    padding: 80px 100px 0 100px;
+}
+
+.form-group {
+    padding-top: 20px;
+}
+
+.text-message {
+    padding: 20px;
+}
+
+.submit-button {
+    padding: 20px;
+    text-align: center;
+}

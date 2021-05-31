@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* Terms and Conditions */
+
+.back-to-home {
+    padding-left: 150px;
+    padding-top: 20px;
+    height: 70px;
+    background-color: #e8eae6;
+    font-size: 18px;
+    font-family: montserrat;
+}
+
+.back-to-home .li-home {
+    list-style-type: none;
+    float: left;
+}
+
+.back-to-home ul li a {
+    color: #6ab43e;
+    text-decoration: none;
+}
+
+.back-to-home .li-tnc {
+    float: left;
+    list-style-type: none;
+}
+
+.back-to-home ul a:hover {
+    color: black;
+}
+
+.row {
+    font-family: montserrat;
+    font-size: 18px;
+}
+
+.row li {
+    color: #828282;
+}
+
+.tnc-heading {
+    padding-top: 10px;
+}
+
+.tnc-heading h2 {
+    color: green;
+}
+
+.tnc-heading hr {
+    width: 8%;
+    border-top: 3px solid green;
+}
+
+.tnc-heading p {
+    color: grey;
+}
+
+.tnc-intro {
+    padding-top: 60px;
+}
+
+.tnc-acceptance {
+    padding-top: 40px;
+}
+
+.tnc-acceptance p {
+    padding-top: 15px;
+    color: #828282;
+}
+
+.tnc-services {
+    padding-top: 40px;
+}
+
+.tnc-obligation {
+    padding-top: 40px;
+}
+
+.tnc-obligation p {
+    color: #828282;
+}
+
+.tnc-account {
+    padding-top: 40px;
+}
+
+.tnc-id {
+    padding-top: 40px;
+}
+
+.tnc-user {
+    padding-top: 40px;
+}
+
+.tnc-breach {
+    padding-top: 40px;
+}
+
+.tnc-breach p {
+    color: #828282;
+}
+
+.tnc-trademarks {
+    padding-top: 40px;
+}
+
+.tnc-trademarks p {
+    color: #828282;
+}
+
+.tnc-amendments {
+    padding-top: 40px;
+}
+
+.tnc-amendments p {
+    color: #828282;
+}
+
+.tnc-contact {
+    padding-top: 40px;
+}
+
+.tnc-contact p {
+    color: #828282;
+}

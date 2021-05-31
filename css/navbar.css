@@ -1,0 +1,30 @@
+/* navbar */
+
+.navbar {
+    background-color: green;
+    font-family: helvetica;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    font-family: Lato;
+}
+
+.nav-link {
+    color: white !important;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #ECECA3;
+}
+
+.bin {
+    color: #ECECA3;
+}
+
+.top-body {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}

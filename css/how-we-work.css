@@ -1,0 +1,87 @@
+body,
+html {
+    height: 100%;
+    background-color: black;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+@media(max-width:400px) {
+    .pimg1,
+    .pimg2,
+    .pimg3,
+    .pimg4,
+    .pimg5,
+    .pimg6 {
+        background-attachment: scroll;
+    }
+}
+
+.pimg1 {
+    background-image: url("../images/1.jpg");
+}
+
+.pimg2 {
+    background-image: url("../images/2.jpg");
+}
+
+.pimg3 {
+    background-image: url("../images/3.jpg");
+}
+
+.pimg4 {
+    background-image: url("../images/4.jpg");
+}
+
+.pimg5 {
+    background-image: url("../images/5.jpg");
+}
+
+.pimg6 {
+    background-image: url("../images/6.jpg");
+}
+
+.section {
+    text-align: center;
+}
+
+.section-light {
+    background-color: rgb(215, 253, 156);
+    color: rgb(65, 65, 65);
+}
+
+.section-dark {
+    background-color: rgb(9, 51, 9);
+    color: white;
+}
+
+.ptext {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    line-height: normal;
+    border: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+}

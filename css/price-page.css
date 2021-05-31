@@ -1,0 +1,96 @@
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    background: white;
+}
+
+.count-text {
+    padding-left: 70px;
+}
+
+.Tagline {
+    padding-left: 70px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.row {
+    margin: 0 15%;
+    padding-left: 50px;
+}
+
+.ratelist-group-name {
+    font: 'lato';
+    font-size: 2rem;
+    color: darkgreen;
+}
+
+.ratelist-group-line {
+    color: green;
+}
+
+.count-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.text-color-light {
+    font-size: 1rem;
+}
+
+.text-color {
+    color: darkgreen;
+}
+
+.pb-0 {
+    line-height: 200%;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 992px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+    div {
+        display: block;
+    }
+    html,
+    body {
+        background: white;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.pp {
+    padding-bottom: 3rem;
+}

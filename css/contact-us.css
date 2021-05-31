@@ -1,0 +1,18 @@
+.main {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.head {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.heed {
+    font-size: 4rem;
+    color: green;
+}
+
+body {
+    background: linear-gradient(45deg, #EEF6CB 50%, #fff 50%);
+}

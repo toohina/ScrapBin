@@ -1,0 +1,29 @@
+html {
+    overflow-x: hidden;
+}
+
+.form-signin {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.form-signin h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+/*form css*/
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+.signinBut {
+    background-color: green;
+}
+
+.fa .fa-eye {
+    padding-top: 300px;
+    cursor: pointer;
+}

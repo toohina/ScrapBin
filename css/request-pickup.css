@@ -1,0 +1,61 @@
+body {
+    background-image: url("../images/leaf.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.request-pickup-form {
+    border: 1px solid #fff;
+    text-align: left;
+    /* background-color: white; */
+    backdrop-filter: blur(20px);
+    display: inline-block;
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    margin-bottom: 5rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: none;
+    padding: 0.25rem;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.btn-style {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-style:hover {
+    color: black;
+    background-color: white;
+}
+
+h6 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+@media(max-width:1140px) {
+    .request-pickup-form {
+        width: 90%;
+    }
+}
